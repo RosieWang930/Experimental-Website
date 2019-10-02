@@ -1,0 +1,86 @@
+body{
+  background-color: #CCCCFF;
+  font-family: 'Manjari', sans-serif;
+  font-size: 3vmin;
+  color: #4b007b;
+}
+
+h1{
+  font-family:'Bree Serif', serif;
+  font-size: 10vmin;
+  text-align: center;
+  letter-spacing: 5vmin;
+}
+
+h1:hover{
+  letter-spacing: 8vmin;
+}
+
+.mainContainer{
+  display: flex;
+  margin: 0 10vmin 0 10vmin;
+}
+
+.leftContainer{
+  display:flex;
+  position: fixed;
+  flex-direction: column;
+  width:40vw;
+  margin-right: 5vmin;
+  background-color: #FFF;
+  padding: 0 10vmin 0 10vmin;
+}
+
+.rightContainer{
+  display:flex;
+  position: relative;
+  left: 50vw;
+  text-align: right;
+  flex-direction: row;
+  width:30vw;
+  margin-left: 5vmin;
+}
+
+.bar{
+  width: 40vw;
+  background-color: black;
+
+}
+
+.albumList{
+  text-align: center;
+}
+
+.albumList h1{
+  font-size: 7vmin;
+}
+
+.albumPics img{
+  width: 50vmin;
+  border: 3px solid white;
+}
+
+.pics + .pics{
+  margin-top: 5vmin;
+}
+
+.pics:hover{
+  border-radius: 5vmin;
+  border: 8px dashed purple;
+}
+
+ul{
+    line-height: 4vmin;
+}
+
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 3vmin;
+  text-decoration: none;
+}
+
+li:hover{
+  color: #CCCCFF;
+}
